@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.cursospring.domain.Cliente;
 import com.example.cursospring.repositories.ClienteRepository;
+import com.example.cursospring.services.exception.ObjectNotFoundException;
 
 @Service
 public class ClienteService {

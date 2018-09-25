@@ -1,4 +1,4 @@
-package com.example.cursospring.services;
+package com.example.cursospring.services.exception;
 
 public class ObjectNotFoundException extends RuntimeException {
 
@@ -12,5 +12,5 @@ public class ObjectNotFoundException extends RuntimeException {
 	public ObjectNotFoundException(String msg, Throwable cause ) {
 		super(msg, cause);
 	}
-
+	
 }
