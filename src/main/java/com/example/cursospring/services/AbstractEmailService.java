@@ -15,6 +15,7 @@ import org.thymeleaf.context.Context;
 
 import com.example.cursospring.domain.Pedido;
 
+
 public abstract class AbstractEmailService implements EmailService {
 
 	@Value("${default.sender}")
